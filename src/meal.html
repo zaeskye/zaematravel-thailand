@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>MEALS</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+    <div class="topnav">
+
+        <img src="thai-header.jpg" style="width: 100%;">
+  
+        <a href="index.html">HOME</a>
+  
+        <a href="meal.html">MEALS</a>
+  
+    </div>
+
+    <center><h1>FAMOUS MEAL IN THAILAND</h1></center>
+    
+    <!-- To fetch data from meal2.js -->
+    <select name="location" id="meal-input" required>
+        <option value="0">SELECT MEAL:</option>
+        <option>MASSAMAN BEEF CURRY</option>
+        <option>PAD SEE EW</option>
+        <option>THAI GREEN CURRY</option>
+    </select>
+
+    <input id="meal-button" type="submit" value="Search"/>
+
+    <!-- To display the pictures of the meal as for user reference before they want to know more about the meal -->
+    <div class="row">
+        <div class="column">
+            <div class="container">
+                <img src="massaman-beef-curry.jpg" alt="massaman-beef-curry" class="image" style="width:100%">
+                <div class="middle">
+                  <div class="text">MASSAMAN BEEF CURRY</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="container">
+                <img src="pad-see-ew.jpg" alt="pad-see-ew" class="image" style="width:100%">
+                <div class="middle">
+                  <div class="text">PAD SEE EW</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="container">
+                <img src="thai-green-curry.png" alt="Thai-Green-Curry" class="image" style="width:100%">
+                <div class="middle">
+                    <div class="text">THAI GREEN CURRY</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- To display collected data from openweather API -->
+    <ul id="meal-list" style="text-align: center;"></ul>
+
+    <div class="footer">
+
+        <strong >Top Destination</strong><br><br>
+        <a href="https://www.tourismthailand.org/Destinations/Provinces/Bangkok/219" style="color: #000000;">Bangkok</a><br>
+        <a href="https://www.tourismthailand.org/Destinations/Provinces/Chiang-Mai/101" style="color: #000000;">Chiang Mai</a><br>
+        <a href="https://www.tourismthailand.org/Destinations/Provinces/Phuket/350" style="color: #000000;">Phuket</a><br>
+        <a href="https://www.tourismthailand.org/Destinations/Provinces/Chon-Buri/464" style="color: #000000;">Chon Buri</a><br>
+        <a href="https://www.tourismthailand.org/Destinations/Provinces/Ubon-Ratchathani/587" style="color: #000000;">Ubon Ratchani</a><br><br>
+  
+        <strong>Regions of Thailand</strong><br><br>
+        <a href="https://www.tourismthailand.org/Destinations/North/1" style="color: #000000;">North</a><br>
+        <a href="https://www.tourismthailand.org/Destinations/Central/2"- style="color: #000000;">Central</a><br>
+        <a href="https://www.tourismthailand.org/Destinations/East/4" style="color: #000000;">East</a><br>
+        <a href="https://www.tourismthailand.org/Destinations/North-East/5" style="color: #000000;">North East</a><br>
+        <a href="https://www.tourismthailand.org/Destinations/South/3" style="color: #000000;">South</a><br>
+  
+        <p>&copy; Tourism Thailand 2023</p>
+  
+    </div>
+
+    <script type="text/javascript" src="meal2.js"></script>
+
+    <script type="text/javascript" src="select.js"></script>
+</body>
+</html>

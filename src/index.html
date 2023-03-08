@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>SAWADEE</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="topnav">
+
+      <img src="thai-header.jpg" style="width: 100%;">
+
+      <a href="index.html">HOME</a>
+
+      <a href="meal.html">MEALS</a>
+
+    </div>
+
+    <h2>WEATHER IN THAILAND</h2>
+
+    <!-- To fetch data from weather2.js -->
+    <select name="location" id="weather-input" required>
+      <option value="0"> SELECT STATE:</option>
+      <option>BANGKOK</option>
+      <option>CHIANG MAI</option>
+      <option>AYUTTHAYA</option>
+      <option>PHUKET</option>
+      <option>KRABI</option>
+      <option>PATTANI</option>
+      <option>NARATHIWAT</option>
+      <option>KOH TAO</option>
+      <option>KANCHANABURI</option>
+      <option>PATTAYA</option>
+    </select>
+
+    <input id="weather-button" type="submit" value="Search"/>
+
+    <!-- To display collected data from openweather API -->
+    <ul id="weather-list" style="text-align: center;"></ul>
+
+    <!-- To display interesting places in Thailand with a bit description about the place -->
+    <div class="content">
+
+      <center><h1 style="color:#ffffff; background-color: steelblue;">INTERESTING PLACES IN THAILAND</h1></center>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="the-grand-palace.jpeg">
+            <img src="the-grand-palace.jpeg" alt="the-grand-palace" width="600" height="400">
+          </a>
+          <div class="desc">Since the founding of Bangkok as the Nations capital by King Rama I, <a href="https://www.tourismthailand.org/Attraction/the-grand-palace" target="_blank">The Grand Palace</a> has been the major architectural symbol of The Thai Royal family. In the present time, The Royal Family resides at Chitralada Palace while The Grand Palace is used for ceremonial purposes.</div>
+        </div>
+      </div>
+  
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="khao-sok.jpeg">
+            <img src="khao-sok.jpeg" alt="khao-sok" width="600" height="400">
+          </a>
+          <div class="desc">A lofty peak in the heart of the dense jungle, <a href="https://www.tourismthailand.org/Attraction/khao-sok-national-park" target="_blank">Khao Sok</a> sits at the center of the largest rainforest area in the entire southern region and covers a massive 738.74 square kilometers, including the area to the north of the Rajjaprabha Dam.</div>
+        </div>
+      </div>
+  
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="wat-arun.jpeg">
+            <img src="wat-arun.jpeg" alt="wat-arun" width="600" height="400">
+          </a>
+          <div class="desc"><a href="https://www.tourismthailand.org/Attraction/wat-arun-ratchawararam-ratchawaramahawihan" target="_blank">Wat Arun Ratchawararam Ratchawaramahawihan</a> is located on Arun Amarin Road on the Thon Buri side of the Chao Phraya River directly opposite Wat Pho. It is a temple that has existed since the Ayutthaya period.</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="coral-island.png">
+            <img src="coral-island.png" alt="Cinque Terre" width="600" height="400">
+          </a>
+          <div class="desc"><a href="https://www.tourismthailand.org/Attraction/coral-island-or-ko-he" target="_blank">Coral Island</a> or Ko He is located Phuket's south coast, is so well known for its coral reef that it is often referred to simply as Coral Island. In addition to the splendid reefs there are two fine beaches on the north and west of the island.</div>
+        </div>
+      </div>
+      
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="chatuchak-weekend-market.png">
+            <img src="chatuchak-weekend-market.png" alt="Forest" width="600" height="400">
+          </a>
+          <div class="desc"><a href="https://www.tourismthailand.org/Attraction/chatuchak-weekend-market" target="_blank">Chatuchak Market</a> is located on Phahon Yothin Road near Chatuchuk Park and is a large market. The area in the flea market has been divided into 27 projects with over 8,000 retail stalls. There are numerous products for tourists to choose from, e.g., clothing, bags, decorations, earthenware, handicrafts, souvenirs, and food and beverage services.</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="railay-beach.png">
+            <img src="railay-beach.png" alt="Northern Lights" width="600" height="400">
+          </a>
+          <div class="desc"><a href="https://www.tourismthailand.org/Attraction/railay-beach" target="_blank">Railey Beach</a> is an outstanding beach with beautiful features with limestone cliffs. The beach is divided into 3 parts: railay beach West that is surrounded by limestone cliffs, where it is possible to swim and also a point to watch the sunset.</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="sai-yok-elephant-village.png">
+            <img src="sai-yok-elephant-village.png" alt="Mountains" width="600" height="400">
+          </a>
+          <div class="desc">Travel around the forest in <a href="https://www.tourismthailand.org/Attraction/sai-yok-elephant-village" target="_blank">Sai Yok</a> by riding on elephant. They have in total of 40 elephants ready of service. You can feel to bond between human and elephant.</div>
+        </div>
+      </div>
+  
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="wat-phra-that-doi-suthep.png">
+            <img src="wat-phra-that-doi-suthep.png" alt="Mountains" width="600" height="400">
+          </a>
+          <div class="desc"><a href="https://www.tourismthailand.org/Attraction/wat-phra-that-doi-suthep" target="_blank">Wat phra that doi suthep</a> is the most important temple in Chiang Mai, Thailand. Built in the early 19th Buddhist century, the beauty of Wat Phra That Doi Suthep is marked by seven-headed serpent statues that line the stairs to the temple where a Chiang Saen style golden pagoda and all its exquisite Lanna architecture is situated.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+    
+    <div class="footer">
+
+      <strong >Top Destination</strong><br><br>
+      <a href="https://www.tourismthailand.org/Destinations/Provinces/Bangkok/219" style="color: #000000;">Bangkok</a><br>
+      <a href="https://www.tourismthailand.org/Destinations/Provinces/Chiang-Mai/101" style="color: #000000;">Chiang Mai</a><br>
+      <a href="https://www.tourismthailand.org/Destinations/Provinces/Phuket/350" style="color: #000000;">Phuket</a><br>
+      <a href="https://www.tourismthailand.org/Destinations/Provinces/Chon-Buri/464" style="color: #000000;">Chon Buri</a><br>
+      <a href="https://www.tourismthailand.org/Destinations/Provinces/Ubon-Ratchathani/587" style="color: #000000;">Ubon Ratchani</a><br><br>
+
+      <strong>Regions of Thailand</strong><br><br>
+      <a href="https://www.tourismthailand.org/Destinations/North/1" style="color: #000000;">North</a><br>
+      <a href="https://www.tourismthailand.org/Destinations/Central/2"- style="color: #000000;">Central</a><br>
+      <a href="https://www.tourismthailand.org/Destinations/East/4" style="color: #000000;">East</a><br>
+      <a href="https://www.tourismthailand.org/Destinations/North-East/5" style="color: #000000;">North East</a><br>
+      <a href="https://www.tourismthailand.org/Destinations/South/3" style="color: #000000;">South</a><br>
+
+      <p>&copy; Tourism Thailand 2023</p>
+
+    </div>
+
+    <script src="weather2.js"></script>
+
+    <script type="text/javascript" src="select.js"></script>
+    
+  </body>
+</html>
